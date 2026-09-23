@@ -1,0 +1,255 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4820 Harwood Rd Ste 110, San Jose, CA 95124, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.2497704,
+          "lng": -121.91238
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.2512077302915,
+            "lng": -121.9110726197085
+          },
+          "southwest": {
+            "lat": 37.2485097697085,
+            "lng": -121.9137705802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "BrightStar Care",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 360,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107012095764134593900\">BrightStar Care</a>"
+          ],
+          "photo_reference": "AVoNoXQXfTrIu8xxUAiE6Id3LpX2apvvspocyrTpbK8MgHBoFsyhFYvg0kMIi9FJr2jaNM8hFanapNvUEk5f4hUN9Pr9bMutEmBnDTIDY9tgFjacfgDaBcTyN-thf8YMospxxCy3BCIpnb77quTfDUPUBwJC2Y3PIXxX0GzYPD638UIE-a9PA-6DeVtOTprIOZ3GnK_ac1CABkjhg8XQDYVlh-b0F_Hg6xvpwhtijSos6Slw3HC6m_wiBX8MgUMxmw-Vn3jRBXpy86G7aHiQRgyIjprCtjsbD3v6gcqH7tpawlHa5uCjusHCcAWtah6uaG6_H85DsoztE_mPeBiup7qy-BmGQQcd7MX_T1U7WUQi956ZyTtxs3OnyQloF-Zs3wuEiBnXrGpOWtgxWSbmzvYt8v5TOXtJaZy8-CwFY_P58Vx59clWQxWgA1hi51_0ViU_",
+          "width": 820
+        }
+      ],
+      "place_id": "ChIJa5SJnBk1joARMoefIbhJD-A",
+      "plus_code": {
+        "compound_code": "63XQ+W2 San Jose, CA, USA",
+        "global_code": "849W63XQ+W2"
+      },
+      "rating": 5,
+      "reference": "ChIJa5SJnBk1joARMoefIbhJD-A",
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 7
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "555 Price Ave Ste 280, Redwood City, CA 94063, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.4940853,
+          "lng": -122.231132
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.4954743302915,
+            "lng": -122.2299234697085
+          },
+          "southwest": {
+            "lat": 37.4927763697085,
+            "lng": -122.2326214302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "BrightStar Care",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 717,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104370250389485881073\">BrightStar Care</a>"
+          ],
+          "photo_reference": "AVoNoXRZEDlCdgbd7bhqYe8fP7NeNy4FM3Q1AFuU6d1_GFr7g8i6bNYBDEpV_duXGQfp9gIFMPi1uae77cU-ryrTUdwvOmPkaQFDxjoHwUOcA2nlX1vAz-DuVK6kG5BIpNfDc7NXnS7DCEJvlDFPKEU9yrORskfIALjUSAfn2EwOr7AsESx36jxdCKFbg-0Rz3_alQWy28ry9HB1-56-kml1lP_6xpLEIytg5ocFc5ceNy_7JHag-GroUCKZUc2VTODI6KdkXMEI2wmk9zcW8NVckYPKbqU66dXhXu0zoPydkJNqGgYpFNOU7NLVqIGvKeTbrgepuA6df_La0p4OGVG8QExEE9h3OKGRkkpUvJ-xUK5UYkka6kzS4s7m_Jo4ZGH4ViP7FDrfRbLWGl15jPZz99uXApiv4DBTvKXipvXIvhxJhA",
+          "width": 1200
+        }
+      ],
+      "place_id": "ChIJ2d80JKajj4ARCcFtzPH7dtU",
+      "plus_code": {
+        "compound_code": "FQV9+JG Redwood City, CA, USA",
+        "global_code": "849VFQV9+JG"
+      },
+      "rating": 5,
+      "reference": "ChIJ2d80JKajj4ARCcFtzPH7dtU",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 25
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "22320 Foothill Blvd #130, Hayward, CA 94541, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.6787467,
+          "lng": -122.0829372
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.6800390302915,
+            "lng": -122.0817332697085
+          },
+          "southwest": {
+            "lat": 37.67734106970851,
+            "lng": -122.0844312302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "BrightStar Care",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 360,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100686185431536954477\">BrightStar Care</a>"
+          ],
+          "photo_reference": "AVoNoXRWowQbmT_EbWcqzcw3QNLxl9tf8XVV-1XDFu__qXBSkmpULwdbDYZkzyjEzaA7-AjRmCC9Oz5YXaVFPa-zDvoyBJ4BWhMIRXFOGfwi2zywfcoirsnbN8lv4vttUVyvzJ7NpOGF8CSwBWrVCQVGz_TFFHg9EVkba5lHV7teaXtb2nr40xuNMS0QYAxGJIOfrDc_C0Hj3r-wfdtKm-1I0eyvaARXCz-eFhCcy2OpOizwqT9ZPHCoWRoXY8tLPQsXtoqc5oFrdBHxiDo5oHD6oaBJyGslhSXQm6pPOtZ-Uug0xFMMr-rZ6q-hGEKyxvwUVVC_3iFZe16Swva0u5WxDA6FroTdJRENGV-1JLR_a6wdhdfLhueGufIcPi0a9-Yvc1YZZ3_PqpdPCXp4ry6BVYsA6gfTvS-wM-TKLYGR77KOQ5K4Wi31O0RYWnQKSemC",
+          "width": 820
+        }
+      ],
+      "place_id": "ChIJizTygCWTj4ARyEDFxywUymQ",
+      "plus_code": {
+        "compound_code": "MWH8+FR Hayward, CA, USA",
+        "global_code": "849VMWH8+FR"
+      },
+      "rating": 5,
+      "reference": "ChIJizTygCWTj4ARyEDFxywUymQ",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 13
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "100 Shoreline Hwy Bldg B-Suite B275, Mill Valley, CA 94941, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.8809385,
+          "lng": -122.5150837
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.8822874802915,
+            "lng": -122.5137347197085
+          },
+          "southwest": {
+            "lat": 37.87958951970851,
+            "lng": -122.5164326802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "BrightStar Care",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 608,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117053236252785844446\">BrightStar Care</a>"
+          ],
+          "photo_reference": "AVoNoXRJfh9yDcBLby4lIwMQZ893u5ivFkTB73LGzCMvoT9J2kYPRfit8a6UGdi7BgboOvAwl6D8uy7qUljASnWrrfDEbHL5aS4_aezwflixqp9mJNcLTbR9jmQoYd7EoZb1CSVarrdrbEoxcv8taFmHNXZNknTATsVzcS-Gq7YDoPf60JaEWA5u4POcbCY36TEuMHA-d0VXNVVm6TCUXaFyH_e1bYgHVtKuJHstyVBPiTEqZ4PgQ_jeh5gl1lzCflARck-J60We8LTbx9R8JIG_oyrOcD6jrBzMPI47cp9W-cLbV5MuGSL1QVjoqQ-NHinktgO5iBPGXj5IdMb5DQbuJUbfej4N7PaVRzD3S-vuFUUDFU5NM5CM_YtCf3ePdzV1E4-JyP82yb_Uo8BT0HG358LUXKE0qpvmJrCe19m7lHgSAj0W",
+          "width": 1080
+        }
+      ],
+      "place_id": "ChIJG8LZ5EaFhYARao1Ih_4Wdk0",
+      "plus_code": {
+        "compound_code": "VFJM+9X Mill Valley, CA, USA",
+        "global_code": "849VVFJM+9X"
+      },
+      "rating": 4.9,
+      "reference": "ChIJG8LZ5EaFhYARao1Ih_4Wdk0",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 30
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1513 Kooser Rd, San Jose, CA 95118, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.2444014,
+          "lng": -121.8956968
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.24568293029149,
+            "lng": -121.8944057197085
+          },
+          "southwest": {
+            "lat": 37.24298496970849,
+            "lng": -121.8971036802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Brightstar Christian Academy",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1224,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104040992277861318939\">Brightstar Christian Academy</a>"
+          ],
+          "photo_reference": "AVoNoXTfirccylTjvn7HDorLesUoBm7tgAN6iAFgF6GRreE10JU_QPjjPSqavfmtLWb_GuNhtDdzLWbEdTfLHBFWvBa7X6WeF3B29voFnXY2VFuAoZysqsNYVKLEhDk4vKKhjoRt9_lDTNOupqw3P4_qMg2gWSAxDfNAzNEkJL1fHWzKluDNSk1kpzXnVuPLSPr9kQs4YELOaMeQ-wLmhyILCdkEPC-WayuptO1VUeN0C0ekUyDR1pF0Gjg4s3xDfu3YrNSxUX7l8AZ6E_jJO-QkpwIFjsSKW0qpbC6_TsENSVwPE5MWwXJqhDOUnKzkQLGmmatRbmQaxw6kfQw-tUySk2oUX31vMmGbCvE3fYOLyDEJxJTBscpV9_bhdpUM4ncKSwKmMe4varFQCkWh-tbJ4SQJprMW0TtIymX5JdAJwI6IoA",
+          "width": 1632
+        }
+      ],
+      "place_id": "ChIJx7FGLPwzjoAR3NbkUHjLMkg",
+      "plus_code": {
+        "compound_code": "64V3+QP San Jose, CA, USA",
+        "global_code": "849W64V3+QP"
+      },
+      "rating": 4.6,
+      "reference": "ChIJx7FGLPwzjoAR3NbkUHjLMkg",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ],
+      "user_ratings_total": 10
+    }
+  ],
+  "status": "OK"
+}

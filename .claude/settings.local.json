@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(npm run *)",
+      "Bash(echo \"started with pid $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/health)",
+      "Bash(curl -s -X POST http://localhost:4000/api/audits -H 'Content-Type: application/json' -d '{\"url\":\"https://llhca.com\",\"zipCode\":\"15401\"}')",
+      "Bash(curl -s -D /private/tmp/claude-501/-Users-maile-Library-Application-Support-Claude-scratch-workspaces-367b7219-7ab0-48fb-96f3-7ea0f4a5dba1-1c92b63f-f932-4fbd-807b-476079b544e2-scratch-2026-09-01-112931/f44a175e-ff95-4cfb-9d31-51f5add2bae1/scratchpad/headers.txt -o /private/tmp/claude-501/-Users-maile-Library-Application-Support-Claude-scratch-workspaces-367b7219-7ab0-48fb-96f3-7ea0f4a5dba1-1c92b63f-f932-4fbd-807b-476079b544e2-scratch-2026-09-01-112931/f44a175e-ff95-4cfb-9d31-51f5add2bae1/scratchpad/report.pdf http://localhost:4000/api/audits/da5f397f-46d4-4675-a43a-ba14dac0e371/pdf)",
+      "Bash(kill 47113)"
+    ]
+  }
+}

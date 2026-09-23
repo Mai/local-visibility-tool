@@ -1,0 +1,144 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4166 56th St SW Ste A, Wyoming, MI 49418, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.8628158,
+          "lng": -85.76565409999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.86424203029151,
+            "lng": -85.7642459697085
+          },
+          "southwest": {
+            "lat": 42.86154406970851,
+            "lng": -85.7669439302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Great Lakes Home Care Services",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1059,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104474889932635930713\">Great Lakes Home Care Services</a>"
+          ],
+          "photo_reference": "AVoNoXTjtisVuu147aDNVRdX7HMR3oiGkuSGbY4-9nqIPPBwrH1z3TvNHX42oU0L4Y-v7yMeRlvLD2knV1eACnhCXiTRV-kHJld-m8JBSaSRQ14A9m9mOmv5Dg2gZ0aTQsWMlr3MnfDTEnohKQXcTPQLiXPZXHHjiHIGtvyvgRPWLcLY--xYbqEOLCXh6goXczHgnrWwqbL-jitc6kw9xa057r1ehAJb2gjqr3qPX8kdvEux38xufxgDy8QBxCJq72kEL6qOqkN3xJaDtLC5aSEVuel5sm-qwsgFRVV9tXlkrhImBY81imHx6au-OOdP-wQhWeJLygbmrgk833_8juw8yrrTEpYprmyEEmyI6MkIWPor2lZ_eb3OCHQIehptK24n8N5plpv1Qm9IT88ke_uVsRCsQ-dHYdcYTq01R0VqIBA3dg",
+          "width": 1899
+        }
+      ],
+      "place_id": "ChIJ38X5A5G3GYgRwCCXwFuMZc0",
+      "plus_code": {
+        "compound_code": "V67M+4P Wyoming, MI, USA",
+        "global_code": "86JPV67M+4P"
+      },
+      "rating": 5,
+      "reference": "ChIJ38X5A5G3GYgRwCCXwFuMZc0",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 39
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "800 E Ellis Rd Ste 110, Norton Shores, MI 49441, USA",
+      "geometry": {
+        "location": {
+          "lat": 43.1621695,
+          "lng": -86.2255146
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.1634189302915,
+            "lng": -86.2243776197085
+          },
+          "southwest": {
+            "lat": 43.1607209697085,
+            "lng": -86.22707558029151
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Great Lakes Home Care Services",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104549080143691539521\">Great Lakes Home Care Services</a>"
+          ],
+          "photo_reference": "AVoNoXRP2-tPZRKPMeFyveVsUnCggxaOSBrkrgr18mPG7RqAYhMjQXmNpkvsnn43QSQxWRzUlAQ0cYyPR2UNwySWfQ7tsnBTm49CNYupVhRkhrO512UZH-MawAPxqAeOAEPG6S_eTWWUAiOkYaw174icXir2CxeaPH5TFpBNY9NlEde9Zan19b7u_YC-6y8EFHNpeuZAG12L3jtyXfAal-2i6VWddvk0Nw36hiN3Dr105Wsl62J5EzYnsQhlblM0ct6pSeAle7Wdm9r-FokK511OM3TF9QMirKPS7OjadPAmKIT33G7d3XuTcdRS31p_Fo8bWsfEx6nvL7L4_gVo-Mc8RO6040pW2fhvvLlv76hNxA-fWlFxZq3pQKhGzFL8OqgZv6DaAmpUVj1EcHaXYwl65OvIQbsS0puGEhq_LzcDxnvScQVCBPEobrWnpG8-ezj7",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJXcm6gc1_GYgRslTFCro7wkc",
+      "plus_code": {
+        "compound_code": "5Q6F+VQ Norton Shores, MI, USA",
+        "global_code": "86MM5Q6F+VQ"
+      },
+      "rating": 4.8,
+      "reference": "ChIJXcm6gc1_GYgRslTFCro7wkc",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ],
+      "user_ratings_total": 14
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6060 Dixie Hwy, Village of Clarkston, MI 48346, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.7091122,
+          "lng": -83.40568999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.7105575802915,
+            "lng": -83.40438801970849
+          },
+          "southwest": {
+            "lat": 42.7078596197085,
+            "lng": -83.4070859802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Great Lakes Home Healthcare",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJhUxpp56XJIgRiLTgl1Mp-d0",
+      "plus_code": {
+        "compound_code": "PH5V+JP Village of Clarkston, MI, USA",
+        "global_code": "86JRPH5V+JP"
+      },
+      "reference": "ChIJhUxpp56XJIgRiLTgl1Mp-d0",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ]
+    }
+  ],
+  "status": "OK"
+}

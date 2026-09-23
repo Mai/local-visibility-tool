@@ -1,0 +1,36 @@
+{
+  "name": "sensi-seo-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Senior Care Local SEO & GEO Evaluation Tool",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npm run build --workspace @sensi/shared && npm run build --workspace @sensi/api && npm run build --workspace @sensi/web",
+    "build:shared": "npm run build --workspace @sensi/shared",
+    "dev": "npm run build:shared && concurrently -n api,web -c blue,magenta \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev --workspace @sensi/api",
+    "dev:web": "npm run dev --workspace @sensi/web",
+    "typecheck": "npm run build:shared && npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "playwright:install": "npx playwright install chromium",
+    "clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules packages/*/dist apps/api/dist apps/web/.next"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true,
+    "fsevents@2.3.2": true,
+    "fsevents@2.3.3": true,
+    "sharp@0.35.3": true
+  }
+}

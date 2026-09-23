@@ -1,0 +1,23 @@
+node_modules/
+dist/
+dist-test/
+.next/
+*.tsbuildinfo
+out/
+coverage/
+
+.env
+.env.local
+.env.*.local
+
+# Audit artifacts (generated PDFs, scrape cache)
+.cache/
+tmp/
+*.pdf
+!docs/**/*.pdf
+
+.DS_Store
+*.log
+npm-debug.log*
+.vscode/
+.idea/

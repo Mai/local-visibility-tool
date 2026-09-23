@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: sensi-seo-tool-api
+    runtime: docker
+    dockerfilePath: ./apps/api/Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PLAYWRIGHT_HEADLESS
+        value: "true"
+      - key: RESPECT_ROBOTS_TXT
+        value: "true"
+      - key: CACHE_TTL_SECONDS
+        value: "86400"
+      - key: CACHE_DIR
+        value: .cache
+      # Set these in the Render dashboard instead of here — they're secrets and
+      # shouldn't live in a file that gets committed.
+      - key: GOOGLE_PLACES_API_KEY
+        sync: false
+      - key: PAGESPEED_API_KEY
+        sync: false
+      - key: SERPER_API_KEY
+        sync: false
+      - key: YELP_API_KEY
+        sync: false
+      # The team's actual web app URL, once you know it (Vercel gives you this
+      # after the first deploy). No trailing slash.
+      - key: CORS_ORIGINS
+        sync: false

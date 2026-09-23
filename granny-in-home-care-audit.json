@@ -1,0 +1,33 @@
+{
+  "businessName": "GRANNY’S IN-HOME CARE",
+  "location": "Lakeland, FL",
+  "date": "September 17, 2026",
+  "overallScore": 58,
+  "categories": {
+    "gbp": {
+      "score": 18,
+      "total": 25,
+      "label": "Room to improve"
+    },
+    "listings": {
+      "score": 14,
+      "total": 20,
+      "label": "Room to improve"
+    },
+    "website": {
+      "score": 12,
+      "total": 25,
+      "label": "Needs attention"
+    },
+    "reviews": {
+      "score": 10,
+      "total": 15,
+      "label": "Room to improve"
+    },
+    "llm": {
+      "score": 4,
+      "total": 15,
+      "label": "Needs attention"
+    }
+  }
+}

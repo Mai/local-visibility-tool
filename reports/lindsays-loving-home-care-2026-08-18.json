@@ -1,0 +1,997 @@
+{
+  "tool": "home_care_agent",
+  "version": "1.0",
+  "agency": "Lindsay's Loving Home Care Agency, LLC",
+  "url": "https://llhca.com/",
+  "location": {
+    "city": "Uniontown",
+    "state": "PA",
+    "zip": "15401"
+  },
+  "generatedAt": "August 18, 2026",
+  "totalScore": 42.0,
+  "band": "Needs work",
+  "modulesNotScored": [],
+  "modules": [
+    {
+      "id": "google",
+      "label": "Your Google listing",
+      "weight": 25.0,
+      "points": 19.08,
+      "percent": 76.3,
+      "indicator": "yellow",
+      "notScoredReason": null,
+      "pointsVisible": 19.0,
+      "checks": [
+        {
+          "id": "google.found",
+          "label": "You have a Google Business Profile we can find",
+          "status": "pass",
+          "points": 6.0,
+          "maxPoints": 6.0,
+          "detail": "Your listing is live as \"Lindsay's Loving Home Care Agency, LLC\" (30 E Main St Ste 200D, Uniontown, PA 15401, USA).",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "google.website",
+          "label": "Your listing points at your website",
+          "status": "pass",
+          "points": 4.0,
+          "maxPoints": 4.0,
+          "detail": "Your listing links to llhca.com.",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "google.phone",
+          "label": "Your listing's phone number matches your website",
+          "status": "pass",
+          "points": 3.0,
+          "maxPoints": 3.0,
+          "detail": "Both show the same number.",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "google.area",
+          "label": "Your listing says which areas you cover",
+          "status": "unavailable",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": "Google does not publish a listing's service-area list to outside tools, so we could not read yours. It is worth opening your profile and checking: for a home care agency this list decides which towns you appear in at all."
+        },
+        {
+          "id": "google.category",
+          "label": "Your listing category says you provide home care",
+          "status": "unavailable",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": "Google shares only a broad type for care businesses (\"Health\"), not the category you chose, so we could not read it. Worth checking yourself: the primary category should be \"Home care service\" or \"Home health care service\", and it decides which searches you appear in."
+        },
+        {
+          "id": "google.hours",
+          "label": "Your listing shows when you can be reached",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "Your listing has no hours on it.",
+          "fix": "Add hours \u2014 and if you answer the phone around the clock, say so.",
+          "steps": [
+            "Open your Business Profile and set your office hours.",
+            "If someone always answers, set the hours to open 24 hours: families call in a crisis, and at 9pm a closed listing loses the call."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "google.photos",
+          "label": "Your listing has photos",
+          "status": "warn",
+          "points": 1.5,
+          "maxPoints": 3.0,
+          "detail": "Only 1 photo on your listing.",
+          "fix": "Get to ten or more photos of real caregivers and real staff.",
+          "steps": [
+            "Photograph your office team and (with written permission) caregivers with clients.",
+            "Upload ten or more. Stock photography reads as stock photography and families discount it.",
+            "Add a few every quarter \u2014 a listing that never changes looks dormant."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        }
+      ]
+    },
+    {
+      "id": "citations",
+      "label": "Your listings on other sites",
+      "weight": 20.0,
+      "points": 5.0,
+      "percent": 25.0,
+      "indicator": "red",
+      "notScoredReason": null,
+      "pointsVisible": 20.0,
+      "checks": [
+        {
+          "id": "citation.yelp.com",
+          "label": "You are listed on Yelp",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "We could not find you on Yelp.",
+          "fix": "Claim or create your Yelp listing \u2014 families and search engines both lean on it.",
+          "steps": [
+            "Search Yelp for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.caring.com",
+          "label": "You are listed on Caring.com",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "We could not find you on Caring.com.",
+          "fix": "Claim or create your Caring.com listing \u2014 families and search engines both lean on it.",
+          "steps": [
+            "Search Caring.com for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.aplaceformom.com",
+          "label": "You are listed on A Place for Mom",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "We could not find you on A Place for Mom.",
+          "fix": "Claim or create your A Place for Mom listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+          "steps": [
+            "Search A Place for Mom for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.bbb.org",
+          "label": "You are listed on Better Business Bureau",
+          "status": "pass",
+          "points": 2.5,
+          "maxPoints": 2.5,
+          "detail": "https://www.bbb.org/us/pa/uniontown/profile/home-care/lindsays-loving-homecare-agency-llc-0141-71086851",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.facebook.com",
+          "label": "You are listed on Facebook",
+          "status": "pass",
+          "points": 2.5,
+          "maxPoints": 2.5,
+          "detail": "https://www.facebook.com/LindsaysLovingHomeCareAgency/",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.angi.com",
+          "label": "You are listed on Angi",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "We could not find you on Angi.",
+          "fix": "Claim or create your Angi listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+          "steps": [
+            "Search Angi for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.yellowpages.com",
+          "label": "You are listed on YellowPages",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "We could not find you on YellowPages.",
+          "fix": "Claim or create your YellowPages listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+          "steps": [
+            "Search YellowPages for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.maps.apple.com",
+          "label": "You are listed on Apple Maps",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 1.5,
+          "detail": "We could not find you on Apple Maps.",
+          "fix": "Claim or create your Apple Maps listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+          "steps": [
+            "Search Apple Maps for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "citation.bing.com/maps",
+          "label": "You are listed on Bing Places",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 1.5,
+          "detail": "We could not find you on Bing Places.",
+          "fix": "Claim or create your Bing Places listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+          "steps": [
+            "Search Bing Places for your agency first; an unclaimed listing may already exist.",
+            "Claim it if it does, create it if it does not.",
+            "Use exactly the same agency name, phone number and service area as your Google listing."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        }
+      ]
+    },
+    {
+      "id": "website",
+      "label": "Your website's local signals",
+      "weight": 25.0,
+      "points": 11.0,
+      "percent": 44.0,
+      "indicator": "orange",
+      "notScoredReason": null,
+      "pointsVisible": 25.0,
+      "checks": [
+        {
+          "id": "web.phone",
+          "label": "Your phone number is one tap away",
+          "status": "warn",
+          "points": 1.5,
+          "maxPoints": 3.0,
+          "detail": "Your number is on the page as text, but it is not a tap-to-call link.",
+          "fix": "Make the number a link so a phone dials it when tapped.",
+          "steps": [
+            "Ask whoever maintains the site to wrap the number in a tel: link.",
+            "Keep it visible in the header on a phone, not only in the footer."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.service_area",
+          "label": "Your site lists the towns you cover",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "We could not find anywhere on your site that names the towns you serve.",
+          "fix": "Add an \"Areas we serve\" page naming every town and zip code.",
+          "steps": [
+            "Write down every city, county and zip code your caregivers actually travel to.",
+            "Put them on one page called \"Areas we serve\" and link it from the main menu.",
+            "You are a service-area business: this list is the single strongest local signal you own."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.city_in_title",
+          "label": "Your page title says where you work",
+          "status": "warn",
+          "points": 1.5,
+          "maxPoints": 3.0,
+          "detail": "Your town is on the page but not in the title or main heading.",
+          "fix": "Put the town in the page title and the main heading.",
+          "steps": [
+            "Change your homepage title to something like \"Home Care in Uniontown, PA | Lindsay's Loving Home Care Agency, LLC\".",
+            "Make the main heading say the same thing in plain words."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.services",
+          "label": "Each kind of care you offer has its own page",
+          "status": "warn",
+          "points": 2.0,
+          "maxPoints": 4.0,
+          "detail": "You name 2 services but they mostly share one page.",
+          "fix": "Give each service its own page with its own heading.",
+          "steps": [
+            "Make one page each for the services you really sell \u2014 personal care, companion care, dementia care, respite, 24-hour care.",
+            "On each, say who it is for, what a caregiver actually does, and what it costs per hour.",
+            "One page per service is one more search you can win; a single \"Services\" page wins one."
+          ],
+          "effort": "bigger project",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.schema",
+          "label": "Your site describes itself to search engines",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "We found no business markup on your site.",
+          "fix": "Add HomeHealthCareBusiness (or LocalBusiness) markup with your phone, hours and service area.",
+          "steps": [
+            "Ask your web person for JSON-LD markup on the homepage.",
+            "Use type HomeHealthCareBusiness, and include name, telephone, url, openingHours and areaServed.",
+            "Test it in Google's Rich Results Test."
+          ],
+          "effort": "bigger project",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.enquiry",
+          "label": "A family can ask for care without phoning",
+          "status": "pass",
+          "points": 2.0,
+          "maxPoints": 2.0,
+          "detail": "There is a contact form.",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.mobile",
+          "label": "Your site works on a phone and is secure",
+          "status": "pass",
+          "points": 2.0,
+          "maxPoints": 2.0,
+          "detail": "Secure, and built to resize on a phone.",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.trust",
+          "label": "Your site says your caregivers are vetted",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "We found nothing on your site about screening or licensing.",
+          "fix": "Say how caregivers are screened, and name your license.",
+          "steps": [
+            "State that caregivers are background-checked, bonded and insured.",
+            "Add your state license number.",
+            "This is the first question every family asks about letting a stranger into a parent's home."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.hiring",
+          "label": "Caregivers can find and apply for a job",
+          "status": "pass",
+          "points": 2.0,
+          "maxPoints": 2.0,
+          "detail": "You have a careers page at /career/.",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "web.cost",
+          "label": "Your site says how families can pay",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 1.0,
+          "detail": "Your site says little about what care costs or how families pay for it.",
+          "fix": "Add a page on cost and payment options.",
+          "steps": [
+            "Give an hourly range, even a wide one. Families who cannot find a price assume the worst and call someone else.",
+            "List what you accept: private pay, long-term care insurance, Medicaid waiver, VA benefits.",
+            "Say plainly that Medicare does not pay for non-medical home care \u2014 it is the most common misunderstanding you can clear up."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "label": "Your reviews",
+      "weight": 15.0,
+      "points": 1.4,
+      "percent": 9.3,
+      "indicator": "red",
+      "notScoredReason": null,
+      "pointsVisible": 15.0,
+      "checks": [
+        {
+          "id": "reviews.rating",
+          "label": "Your star rating stands up",
+          "status": "fail",
+          "points": 0.3999999999999999,
+          "maxPoints": 4.0,
+          "detail": "3.4 stars on Google. Below four stars, families stop calling.",
+          "fix": "Get your Google rating back above four stars \u2014 nothing else on this list turns away as many families.",
+          "steps": [
+            "Read the one- and two-star reviews for the pattern; there usually is one.",
+            "Fix the pattern, then reply to each review saying what changed.",
+            "Ask happy families for reviews steadily, not in one burst."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "reviews.volume",
+          "label": "You have enough reviews to be believed",
+          "status": "fail",
+          "points": 1.0,
+          "maxPoints": 3.0,
+          "detail": "Only 9 reviews on Google. A handful reads as a new agency, whatever your rating.",
+          "fix": "Build up to at least 25 Google reviews.",
+          "steps": [
+            "Get your Google review link from your Business Profile.",
+            "Text it to the families you know are happy \u2014 a few each week.",
+            "Never buy reviews or offer anything for them; Google removes them and it is worse than having none."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "reviews.recency",
+          "label": "Reviews are still arriving",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "Your most recent review is 631 days old, which reads as an agency that stopped.",
+          "fix": "Get reviews arriving again, and keep them arriving.",
+          "steps": [
+            "Ask your current families this month.",
+            "Then keep asking, one a week, indefinitely \u2014 freshness counts as much as the total."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        },
+        {
+          "id": "reviews.second_site",
+          "label": "You have reviews somewhere besides Google",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "We found no Yelp reviews for you.",
+          "fix": "Claim your Yelp listing so reviews have somewhere else to land.",
+          "steps": [
+            "Claim the listing at biz.yelp.com.",
+            "Fill in services, hours and service area.",
+            "Do not solicit Yelp reviews \u2014 Yelp filters solicited ones out. Claim it, keep it accurate, and let it sit."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "reviews.on_site",
+          "label": "Your own site shows what families say",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 3.0,
+          "detail": "We found no testimonials on your website.",
+          "fix": "Put real quotes from families on the site, with first name and town.",
+          "steps": [
+            "Ask three families for permission to quote them.",
+            "Put the quotes on the homepage and a testimonials page.",
+            "Include the town \u2014 \"Susan, Virginia Beach\" is a local signal as well as a reference."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "label": "Whether AI can quote your site",
+      "weight": 15.0,
+      "points": 5.5,
+      "percent": 36.7,
+      "indicator": "red",
+      "notScoredReason": null,
+      "pointsVisible": 15.0,
+      "checks": [
+        {
+          "id": "geo.sentence",
+          "label": "One plain sentence says what you are and where",
+          "status": "warn",
+          "points": 1.5,
+          "maxPoints": 3.0,
+          "detail": "You say it, but not at the top of the homepage where it gets lifted from.",
+          "fix": "Move the plain sentence to the top of the homepage.",
+          "steps": [
+            "Write: \"Lindsay's Loving Home Care Agency, LLC is a home care agency serving Uniontown and the surrounding area.\"",
+            "Put it in the first paragraph, as ordinary text.",
+            "It will read as almost too obvious. That is the point \u2014 it is the sentence an assistant repeats."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "geo.questions",
+          "label": "Your headings answer the questions families ask",
+          "status": "warn",
+          "points": 1.5,
+          "maxPoints": 3.0,
+          "detail": "Only 1 heading on your site is written as a question.",
+          "fix": "Turn the questions you answer on the phone every day into headings.",
+          "steps": [
+            "Write down the ten questions you actually get asked.",
+            "Make each one a heading, with a two-sentence answer under it.",
+            "\"How much does home care cost in Uniontown?\" is a heading. \"Our Services\" is not."
+          ],
+          "effort": "bigger project",
+          "unavailableReason": ""
+        },
+        {
+          "id": "geo.faq_schema",
+          "label": "Your questions are marked up for machines",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "We found no FAQ markup on your site.",
+          "fix": "Add FAQPage markup around your questions and answers.",
+          "steps": [
+            "Ask your web person to add FAQPage JSON-LD to the FAQ page.",
+            "Test it in Google's Rich Results Test."
+          ],
+          "effort": "bigger project",
+          "unavailableReason": ""
+        },
+        {
+          "id": "geo.pairing",
+          "label": "Your headings pair a service with a town",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "No heading names both a service and your town.",
+          "fix": "Write headings that pair the two: \"Dementia care in Uniontown\".",
+          "steps": [
+            "For each service page, make the heading \"<service> in <town>\".",
+            "Do it for the two or three towns that actually matter, not for fifty \u2014 a page per town with nothing new on it is a page nobody ranks."
+          ],
+          "effort": "bigger project",
+          "unavailableReason": ""
+        },
+        {
+          "id": "geo.cost_answer",
+          "label": "Your site says what an hour of care costs",
+          "status": "fail",
+          "points": 0.0,
+          "maxPoints": 2.0,
+          "detail": "Your site does not mention what care costs.",
+          "fix": "Give an hourly range. \"Contact us for pricing\" is not an answer an assistant can repeat.",
+          "steps": [
+            "Add: \"Home care in Uniontown typically costs $X to $Y an hour.\"",
+            "Explain what changes the number \u2014 hours per week, level of care, overnight.",
+            "This is the most-asked question of every AI assistant about home care, and the one most agency sites refuse to answer."
+          ],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "geo.readable",
+          "label": "Your pages have enough readable text",
+          "status": "pass",
+          "points": 2.0,
+          "maxPoints": 2.0,
+          "detail": "Your homepage carries about 348 words of text.",
+          "fix": "",
+          "steps": [],
+          "effort": "quick win",
+          "unavailableReason": ""
+        },
+        {
+          "id": "geo.fresh",
+          "label": "Something on your site is recent and dated",
+          "status": "warn",
+          "points": 0.5,
+          "maxPoints": 1.0,
+          "detail": "There are recent dates but no article section we could find.",
+          "fix": "Publish something dated, a few times a year.",
+          "steps": [
+            "Write one short piece a quarter answering a real question \u2014 \"How to know when a parent needs help at home\".",
+            "Show the date. A site with no dates on it looks abandoned to a machine deciding whether to trust it."
+          ],
+          "effort": "ongoing",
+          "unavailableReason": ""
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "module": "Your Google listing",
+      "fix": "Add hours \u2014 and if you answer the phone around the clock, say so.",
+      "why": "Your listing has no hours on it.",
+      "steps": [
+        "Open your Business Profile and set your office hours.",
+        "If someone always answers, set the hours to open 24 hours: families call in a crisis, and at 9pm a closed listing loses the call."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 2,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your Yelp listing \u2014 families and search engines both lean on it.",
+      "why": "We could not find you on Yelp.",
+      "steps": [
+        "Search Yelp for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 3,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your Caring.com listing \u2014 families and search engines both lean on it.",
+      "why": "We could not find you on Caring.com.",
+      "steps": [
+        "Search Caring.com for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 4,
+      "module": "Your website's local signals",
+      "fix": "Add an \"Areas we serve\" page naming every town and zip code.",
+      "why": "We could not find anywhere on your site that names the towns you serve.",
+      "steps": [
+        "Write down every city, county and zip code your caregivers actually travel to.",
+        "Put them on one page called \"Areas we serve\" and link it from the main menu.",
+        "You are a service-area business: this list is the single strongest local signal you own."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 5,
+      "module": "Your reviews",
+      "fix": "Put real quotes from families on the site, with first name and town.",
+      "why": "We found no testimonials on your website.",
+      "steps": [
+        "Ask three families for permission to quote them.",
+        "Put the quotes on the homepage and a testimonials page.",
+        "Include the town \u2014 \"Susan, Virginia Beach\" is a local signal as well as a reference."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 6,
+      "module": "Your website's local signals",
+      "fix": "Say how caregivers are screened, and name your license.",
+      "why": "We found nothing on your site about screening or licensing.",
+      "steps": [
+        "State that caregivers are background-checked, bonded and insured.",
+        "Add your state license number.",
+        "This is the first question every family asks about letting a stranger into a parent's home."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 7,
+      "module": "Your reviews",
+      "fix": "Claim your Yelp listing so reviews have somewhere else to land.",
+      "why": "We found no Yelp reviews for you.",
+      "steps": [
+        "Claim the listing at biz.yelp.com.",
+        "Fill in services, hours and service area.",
+        "Do not solicit Yelp reviews \u2014 Yelp filters solicited ones out. Claim it, keep it accurate, and let it sit."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 8,
+      "module": "Whether AI can quote your site",
+      "fix": "Give an hourly range. \"Contact us for pricing\" is not an answer an assistant can repeat.",
+      "why": "Your site does not mention what care costs.",
+      "steps": [
+        "Add: \"Home care in Uniontown typically costs $X to $Y an hour.\"",
+        "Explain what changes the number \u2014 hours per week, level of care, overnight.",
+        "This is the most-asked question of every AI assistant about home care, and the one most agency sites refuse to answer."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 9,
+      "module": "Your Google listing",
+      "fix": "Get to ten or more photos of real caregivers and real staff.",
+      "why": "Only 1 photo on your listing.",
+      "steps": [
+        "Photograph your office team and (with written permission) caregivers with clients.",
+        "Upload ten or more. Stock photography reads as stock photography and families discount it.",
+        "Add a few every quarter \u2014 a listing that never changes looks dormant."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 10,
+      "module": "Your website's local signals",
+      "fix": "Make the number a link so a phone dials it when tapped.",
+      "why": "Your number is on the page as text, but it is not a tap-to-call link.",
+      "steps": [
+        "Ask whoever maintains the site to wrap the number in a tel: link.",
+        "Keep it visible in the header on a phone, not only in the footer."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 11,
+      "module": "Your website's local signals",
+      "fix": "Put the town in the page title and the main heading.",
+      "why": "Your town is on the page but not in the title or main heading.",
+      "steps": [
+        "Change your homepage title to something like \"Home Care in Uniontown, PA | Lindsay's Loving Home Care Agency, LLC\".",
+        "Make the main heading say the same thing in plain words."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 12,
+      "module": "Whether AI can quote your site",
+      "fix": "Move the plain sentence to the top of the homepage.",
+      "why": "You say it, but not at the top of the homepage where it gets lifted from.",
+      "steps": [
+        "Write: \"Lindsay's Loving Home Care Agency, LLC is a home care agency serving Uniontown and the surrounding area.\"",
+        "Put it in the first paragraph, as ordinary text.",
+        "It will read as almost too obvious. That is the point \u2014 it is the sentence an assistant repeats."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 13,
+      "module": "Your website's local signals",
+      "fix": "Add a page on cost and payment options.",
+      "why": "Your site says little about what care costs or how families pay for it.",
+      "steps": [
+        "Give an hourly range, even a wide one. Families who cannot find a price assume the worst and call someone else.",
+        "List what you accept: private pay, long-term care insurance, Medicaid waiver, VA benefits.",
+        "Say plainly that Medicare does not pay for non-medical home care \u2014 it is the most common misunderstanding you can clear up."
+      ],
+      "effort": "quick win",
+      "pointsRecoverable": 1.0
+    },
+    {
+      "rank": 14,
+      "module": "Your website's local signals",
+      "fix": "Add HomeHealthCareBusiness (or LocalBusiness) markup with your phone, hours and service area.",
+      "why": "We found no business markup on your site.",
+      "steps": [
+        "Ask your web person for JSON-LD markup on the homepage.",
+        "Use type HomeHealthCareBusiness, and include name, telephone, url, openingHours and areaServed.",
+        "Test it in Google's Rich Results Test."
+      ],
+      "effort": "bigger project",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 15,
+      "module": "Your website's local signals",
+      "fix": "Give each service its own page with its own heading.",
+      "why": "You name 2 services but they mostly share one page.",
+      "steps": [
+        "Make one page each for the services you really sell \u2014 personal care, companion care, dementia care, respite, 24-hour care.",
+        "On each, say who it is for, what a caregiver actually does, and what it costs per hour.",
+        "One page per service is one more search you can win; a single \"Services\" page wins one."
+      ],
+      "effort": "bigger project",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 16,
+      "module": "Whether AI can quote your site",
+      "fix": "Add FAQPage markup around your questions and answers.",
+      "why": "We found no FAQ markup on your site.",
+      "steps": [
+        "Ask your web person to add FAQPage JSON-LD to the FAQ page.",
+        "Test it in Google's Rich Results Test."
+      ],
+      "effort": "bigger project",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 17,
+      "module": "Whether AI can quote your site",
+      "fix": "Write headings that pair the two: \"Dementia care in Uniontown\".",
+      "why": "No heading names both a service and your town.",
+      "steps": [
+        "For each service page, make the heading \"<service> in <town>\".",
+        "Do it for the two or three towns that actually matter, not for fifty \u2014 a page per town with nothing new on it is a page nobody ranks."
+      ],
+      "effort": "bigger project",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 18,
+      "module": "Whether AI can quote your site",
+      "fix": "Turn the questions you answer on the phone every day into headings.",
+      "why": "Only 1 heading on your site is written as a question.",
+      "steps": [
+        "Write down the ten questions you actually get asked.",
+        "Make each one a heading, with a two-sentence answer under it.",
+        "\"How much does home care cost in Uniontown?\" is a heading. \"Our Services\" is not."
+      ],
+      "effort": "bigger project",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 19,
+      "module": "Your reviews",
+      "fix": "Get your Google rating back above four stars \u2014 nothing else on this list turns away as many families.",
+      "why": "3.4 stars on Google. Below four stars, families stop calling.",
+      "steps": [
+        "Read the one- and two-star reviews for the pattern; there usually is one.",
+        "Fix the pattern, then reply to each review saying what changed.",
+        "Ask happy families for reviews steadily, not in one burst."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 3.6
+    },
+    {
+      "rank": 20,
+      "module": "Your reviews",
+      "fix": "Get reviews arriving again, and keep them arriving.",
+      "why": "Your most recent review is 631 days old, which reads as an agency that stopped.",
+      "steps": [
+        "Ask your current families this month.",
+        "Then keep asking, one a week, indefinitely \u2014 freshness counts as much as the total."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 3.0
+    },
+    {
+      "rank": 21,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your A Place for Mom listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+      "why": "We could not find you on A Place for Mom.",
+      "steps": [
+        "Search A Place for Mom for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 22,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your Angi listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+      "why": "We could not find you on Angi.",
+      "steps": [
+        "Search Angi for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 23,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your YellowPages listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+      "why": "We could not find you on YellowPages.",
+      "steps": [
+        "Search YellowPages for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 24,
+      "module": "Your reviews",
+      "fix": "Build up to at least 25 Google reviews.",
+      "why": "Only 9 reviews on Google. A handful reads as a new agency, whatever your rating.",
+      "steps": [
+        "Get your Google review link from your Business Profile.",
+        "Text it to the families you know are happy \u2014 a few each week.",
+        "Never buy reviews or offer anything for them; Google removes them and it is worse than having none."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 2.0
+    },
+    {
+      "rank": 25,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your Apple Maps listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+      "why": "We could not find you on Apple Maps.",
+      "steps": [
+        "Search Apple Maps for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 26,
+      "module": "Your listings on other sites",
+      "fix": "Claim or create your Bing Places listing \u2014 it helps confirm your details rather than bring enquiries directly.",
+      "why": "We could not find you on Bing Places.",
+      "steps": [
+        "Search Bing Places for your agency first; an unclaimed listing may already exist.",
+        "Claim it if it does, create it if it does not.",
+        "Use exactly the same agency name, phone number and service area as your Google listing."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 1.5
+    },
+    {
+      "rank": 27,
+      "module": "Whether AI can quote your site",
+      "fix": "Publish something dated, a few times a year.",
+      "why": "There are recent dates but no article section we could find.",
+      "steps": [
+        "Write one short piece a quarter answering a real question \u2014 \"How to know when a parent needs help at home\".",
+        "Show the date. A site with no dates on it looks abandoned to a machine deciding whether to trust it."
+      ],
+      "effort": "ongoing",
+      "pointsRecoverable": 0.5
+    }
+  ],
+  "couldNotCheck": [
+    {
+      "check": "Your listing says which areas you cover",
+      "reason": "Google does not publish a listing's service-area list to outside tools, so we could not read yours. It is worth opening your profile and checking: for a home care agency this list decides which towns you appear in at all."
+    },
+    {
+      "check": "Your listing category says you provide home care",
+      "reason": "Google shares only a broad type for care businesses (\"Health\"), not the category you chose, so we could not read it. Worth checking yourself: the primary category should be \"Home care service\" or \"Home health care service\", and it decides which searches you appear in."
+    }
+  ],
+  "pagesRead": [
+    "https://llhca.com/",
+    "https://llhca.com/services/",
+    "https://llhca.com/career/",
+    "https://llhca.com/contact/"
+  ],
+  "notes": []
+}

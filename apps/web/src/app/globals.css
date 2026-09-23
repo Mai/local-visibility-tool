@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+/*
+ * Shared design tokens. The traffic-light trio is used for every pass / warning
+ * / fail indicator in the UI and the PDF, so it lives in one place.
+ *
+ * ink/brand/brand-soft follow the Sensi brand guide (sensi.ai/brand-guide): Gray 500
+ * for text, Blue 600 for the primary brand colour, Blue 50 for its soft/tint use, Blue
+ * 400 held in reserve for a secondary accent. The pass/warn/attention/fail colours are
+ * functional traffic lights, not brand colours, and the guide does not cover them, so
+ * they are unchanged.
+ */
+@theme {
+  --color-ink: #1c2538;
+  --color-ink-muted: #5b6472;
+  --color-surface: #ffffff;
+  --color-surface-sunken: #f4f6f8;
+  --color-line: #e1e7ed;
+
+  --color-brand: #005799;
+  --color-brand-light: #0091ff;
+  --color-brand-soft: #e0f2ff;
+
+  --color-pass: #1a7f4b;
+  --color-pass-soft: #e6f4ec;
+  --color-warn: #b7791f;
+  --color-warn-soft: #fdf3e0;
+  --color-attention: #c4600f;
+  --color-attention-soft: #fdeee0;
+  --color-fail: #b42318;
+  --color-fail-soft: #fdeceb;
+}
+
+html,
+body {
+  background-color: var(--color-surface-sunken);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-open-sans), ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Printing an audit — and Phase 8's PDF, which renders this same HTML in Chromium —
+ * has to show every expandable section. A report where half the recommendations are
+ * collapsed is a report with half the recommendations.
+ */
+@media print {
+  /* The summary carries the heading, so it stays; only its affordance goes. */
+  details > summary svg {
+    display: none;
+  }
+
+  details > *:not(summary) {
+    display: block !important;
+  }
+}
